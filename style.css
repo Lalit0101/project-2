@@ -1,0 +1,261 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: rgb(255, 255, 255); */
+    color: white;
+    position: fixed;
+}
+
+.logo h3 {
+    font-size: 30px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.801);
+    border-radius: 40px;
+    color: rgb(4, 62, 4);
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 450px;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    justify-content: space-between;
+    list-style: none;
+    margin-inline: 30px;
+    margin-top: 30px;
+}
+
+ul li a {
+    color: rgb(1, 68, 1);
+    text-decoration: none;
+}
+
+.btn button {
+    width: 100px;
+    height: 36px;
+    border: 3px solid rgb(69, 203, 69);
+    ;
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.bg {
+    background-image: url(david-marcu-78A265wPiO4-unsplash.jpg);
+    height: 740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.bg h3 {
+    text-align: center;
+    padding-top: 280px;
+    font-weight: bolder;
+    font-size: 70px;
+    color: rgb(6, 60, 9);
+}
+
+.bg p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.bg button {
+    width: 130px;
+    height: 50px;
+    border: 3px solid rgb(69, 203, 69);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 670px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.box{
+    background-color: azure;
+}
+.box h4{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-top: 120px;
+    color: darkgreen;
+    padding-bottom: 30px;
+}
+.A1{
+    width: 100%;
+    display: flex;
+    padding: 0 85px;
+    justify-content: space-evenly;
+}
+.a1 img{
+    height: 240px;
+}
+.ao{
+    height: 200px;
+    background-color: white;
+   
+}
+.ao h6{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.ao p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    text-align-last: center;
+    opacity: 0.7;
+}
+.b1 img{
+    height: 240px;
+}
+.bo{
+    height: 200px;
+    background-color: white;
+   
+}
+.bo h6{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.bo p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    text-align-last: center;
+    opacity: 0.7;
+   
+}
+.c1 img{
+    height: 240px;
+}
+.co{
+    height: 200px;
+    background-color: white;
+   
+}
+.co h6{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.co p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    text-align-last: center;
+    opacity: 0.7;
+}
+.B1{
+    padding-top: 150px;
+    display: flex;
+}
+.B1 img{
+     width: 50%; 
+     height: 600px; 
+}
+.i1{
+    background-color: white;
+}
+.i1 h4{
+    font-size: 40px;
+}
+.i1 p{
+    padding: 0 180px;
+    text-size-adjust: left;
+}
+
+.form{
+    background-color: azure;
+}
+.form h3{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    color: rgb(2, 79, 2);
+    font-weight: bolder;
+}
+.form p{
+    text-align: center;
+    font-size: 20px;
+    /* padding: 0 20px; */
+    color: rgb(10, 160, 10);
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+input{
+    width: 25%;
+    height: 40px;
+   border-color: green;
+    margin-left: 570px;
+    margin-bottom: 20px;
+}
+.form button {
+    width: 130px;
+    height: 50px;
+    border: 3px solid rgb(69, 203, 69);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    margin-left: 690px;
+     margin-bottom: 30px; 
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+     margin: 50px 0; 
+}
+.icon{
+   
+    padding-left: 100px; 
+}
+.icon img{
+    width: 30px; 
+    cursor: pointer;
+}
+.lis {
+    display: flex;
+   
+    /* margin-left: 740px; */
+    /* padding-top: 10px; */
+}
+.lis li{
+    list-style: none;
+      padding-left: 35px;  
+   padding-right: 30px;
+     font-weight: bold;
+     color: rgb(1, 68, 1);
+    
+}
